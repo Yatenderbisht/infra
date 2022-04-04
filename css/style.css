@@ -1,0 +1,127 @@
+@font-face {font-family: Quicksand; src: url(../font/Quicksand/Quicksand-Regular.ttf);}
+@font-face {font-family: Quicksand-SemiBold; src: url(../font/Quicksand/Quicksand-SemiBold.ttf);}
+@font-face {font-family: Quicksand-Bold; src: url(../font/Quicksand/Quicksand-Bold.ttf);}
+@font-face {font-family: lora-bold; src: url(../font/Lora/Lora-Bold.ttf);}
+@font-face {font-family: lora; src: url(../font/Lora/Lora-Regular.ttf);}
+
+
+.contnr{ width:1257px; max-width:100%; margin:0 auto;}
+body{margin: 0px; padding: 0px;font-family:Quicksand;}
+*{box-sizing: border-box;}
+a{ text-decoration:none; }	
+ul{margin: 0px; padding:0px;}
+ul, li{list-style: none;}
+h1{font-family: lora; font-size:32px;}
+h3{font-family: lora-bold; font-size:26px;}
+h4{font-family: Quicksand; font-size:18px;}
+p{font-family: Quicksand; font-size:17px;}
+.flex{display: flex;}
+.wrap{flex-wrap: wrap;}
+.space-btwn{ justify-content: space-between;}
+.center{align-items: center;}
+
+
+/*start header*/
+header .hdr{ padding-top:10px; }
+header .menu{width: 65%;}
+header .menu a{color:#fff; font-family: Quicksand;}
+header .font span{ color:#f5b955; font-size:22px; font-family:Quicksand-SemiBold}
+.fa.fa-phone{ color:#fff; font-size:25px;}
+header.slider{position: absolute; z-index: 999; width:100%; }
+header .banner{ position: relative;  }
+
+#banner-slider .owl-nav {display:none;}	
+.owl-theme .owl-dots{position: absolute;top: 95%;left:50%;}
+/*end header*/
+
+/*start.aboutus */
+section .aboutus{ padding:70px 0; }
+section .aboutus .abt-img img{width:100%;}
+section .aboutus .abt-txt p{margin-top:15px;}
+section .aboutus .abt-txt{padding:50px 0 0px 60px;width: 55%;}
+/*end.aboutus */
+
+/*start price*/
+.price{background-image: url(../img/price.jpg); padding:100px 0;text-align: center;background-attachment: fixed;background-repeat: no-repeat;background-size: cover;}
+.price h1{color:#fff;}
+.price a{background:#8d520c; padding: 15px 20px;border-radius: 6px;color:#fff;display: inline-block;}
+.price a:hover{background:#cdae63}
+.price .price-boxes{padding:40px 0;}
+.price .occasion{background:#fff; padding:35px; text-align: center;border-bottom: 5px solid #cdae63;}
+.price .occasion h3{color:#cdae63; margin-bottom: 20px;}
+.price .occasion h3 span{color:#8d520c;}
+.price .occasion h4{display:inline-block;}
+.price .occasion p{font-family:Quicksand-SemiBold;line-height: 30px;}
+.fa.fa-inr{margin-top:18px; font-size:30px;color:#8d520c;}
+.fa.fa-inr span{font-size:25px; font-family: Quicksand-Bold; color:#8d520c;}
+
+.price .Bridal{background:#fff; padding:35px; text-align: center;border-bottom: 5px solid #cdae63;margin:0 15px 0;}
+.price .Bridal h3{color:#cdae63; margin-bottom: 20px;}
+.price .Bridal h3 span{color:#8d520c;}
+.price .Bridal h4{display:inline-block;}
+.price .Bridal p{font-family:Quicksand-SemiBold;line-height: 30px;}
+/*end price*/
+
+/*start brand*/
+.brands{text-align:center; padding:50px 0;}
+.brands h1{color:#cdae63; font-size:36;}
+/*.brands .all-product{background:#000; color:#cdae63; padding:10px;margin:10px 0;}*/
+.brands .all_product{margin:25px 0;}
+.brands .all_product span{background:#000; color:#cdae63; padding:10px;}
+#brands_carousel .image-bdr{border:1px solid #e6e6e6; padding:5px;}
+#brands_carousel .owl-nav{display: block;}
+.owl-nav .fa.fa-angle-double-left, .fa.fa-angle-double-right {font-size: 30px;border: 1px solid #cdae63;padding: 7px 10px;}
+.owl-nav .fa.fa-angle-double-left:hover, .fa.fa-angle-double-right:hover {background:#cdae63;color:#fff;}
+/*end brand*/
+
+/*start testimonials*/
+.testimonials{background-image:url(../img/testimonials.jpg); text-align:center;color:#fff;background-attachment:fixed;position:relative; padding:100px 0;}
+.testimonials .testimonials_slider #testimonials_carousel .item{border:8px solid #c09a38 ; padding:20px; width: 85%;margin: 20px auto;}
+.testimonials .testimonials_slider #testimonials_carousel .item img{width:auto;margin: 0 auto;}
+.testimonials .testimonials_slider #testimonials_carousel .item p{color:#fff; font-size:18px; margin:10px 0;}
+#testimonials_carousel .owl-dots{display:none;}
+#testimonials_carousel .owl-nav .owl-prev{position:absolute;top: 39%;left: 0;}
+#testimonials_carousel .owl-nav .owl-next{position:absolute;top: 39%;right: 0;}
+/*end testimonials*/
+
+/*start whatsapp*/
+.whatsapp{text-align:center; padding:70px;}
+.whatsapp h1{color:#cdae63;font-size: 28px}
+.whatsapp h2{color:#000;margin:20px 0;font-family:lora;}
+.whatsapp img{margin-top:20px;}
+/*end whatsapp*/
+
+.form-cntnr{background:#f9f9f9;width:50%;padding:60px 40px;}
+.form-contact label{color:#000; font-family:Quicksand;font-size: 18px;}
+.form-contact .half-li-left{width: 49%; float: left;}
+.form-contact input[type="text"], [type="tel"]{width: 100%;font-family:Quicksand;font-size: 16px;padding:10px 0 10px 5px;margin-top:5px;border: none;}
+.form-contact .half-li-right{width: 49%; float: right;}
+.form-contact .full-li{width: 100%;margin:18px 0;float:left; }
+.form-contact .email{width: 100%;float:left;margin-bottom:25px; }
+ form a{background:#8d520c; padding: 15px 30px;border-radius: 6px;color:#fff;display: inline-block;}
+ form a:hover{background:#cdae63}
+.form-img{width:50%;}
+.form-img img{width:100%;height:100%;}
+
+
+footer{background:#000;padding:50px 0;}
+footer .ftr-logo img{display:block;}
+footer .ftr-logo a{display:block; margin-top:15px;color:#fff;font-size: 17px;}
+footer .ftr-logo a i{margin-right:10px; font-size:17px;}
+footer .Queries{color:#fff;font-size:18px;margin-top:10px;}
+footer .Queries a{color:#f5b955;font-size:20px;margin-top:10px;}
+footer .Queries .ftr-phone{color:#f5b955;font-size:22px;margin-top:10px;}
+
+
+footer .Quick-links h4{color:#fff;font-family:lora; font-size:29px;margin-bottom: 15px;}
+footer .Quick-links li, a{color:#fff;font-family:Quicksand; font-size:18px;margin-bottom: 10px; }
+footer .map {width:600px;}
+.copy-right{padding:15px; background:#cdae63;}
+.copy-right p{font-size:18px; color:#000;text-align: center;margin:0;}
+
+
+
+
+
+
+
